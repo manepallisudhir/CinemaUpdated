@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
+        <ImageView
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:src="@drawable/review"/>
+
+        <TextView
+            android:layout_weight="5"
+            android:id="@+id/review_textView"
+            android:textSize="40px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+</LinearLayout>
